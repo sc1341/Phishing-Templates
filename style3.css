@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 1px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+}
+
+.login-container .logo {
+    font-family: 'Billabong', cursive;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    background: #fafafa;
+}
+
+button {
+    background-color: #0095f6;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.alternative {
+    margin: 20px 0;
+    color: #8e8e8e;
+}
+
+.login-options a {
+    color: #0095f6;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.login-options a:hover {
+    text-decoration: underline;
+}
